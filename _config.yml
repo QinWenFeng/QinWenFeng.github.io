@@ -1,0 +1,8 @@
+titile: "Yanwarud Chinsiriwong"
+lang: "en"
+
+navigation:
+- {title: "Course"}
+
+plugins:
+- jekyll-feed
