@@ -1,4 +1,6 @@
-# NTHU
+---
+title:  "NTHU"
+---
 
 ## EE
 - [EE2210 Electric Circuits](https://github.com/QinWenFeng/EE2210_Electric-Circuits)
