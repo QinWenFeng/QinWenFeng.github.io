@@ -12,6 +12,7 @@ title:  "NTHU"
 - [EE3660 Introduction to Digital Signal Processing](https://github.com/QinWenFeng/EE3660_Introduction-to-Digital-Signal-Processing)
 - [EE3700 Introduction to Machine Learning]
 - [EE4292 IC Design Laboratory]
+- [EE6250 VLSI Testing]
 - [EE6550 Machine Learning]
 
 ## CS
@@ -21,6 +22,7 @@ title:  "NTHU"
 - [CS3570 Introduction to Multimedia](https://github.com/QinWenFeng/CS3570_Introduction-to-Multimedia) 
 - [CS4100 Computer Architecture](https://github.com/QinWenFeng/CS4100_Computer_Architecture) 
 - [CS4310 Design and Analysis of Algorithms]
+- [CS4710 Introduction to Database Systems]
 - [CS5120 VLSI System Design]
 - [CS5319 Advanced Discrete Structure]
 - [CS5412 Virtualization technology and its applications]
