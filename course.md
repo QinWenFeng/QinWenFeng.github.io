@@ -2,6 +2,23 @@
 title:  "NTHU"
 ---
 
+## CS
+- [CS1358 Introduction to Programming in Python](https://github.com/QinWenFeng/CS1358_Introduction-to-Programming-in-Python)
+- [CS3332 Probability](https://github.com/QinWenFeng/CS3332_Probability) 
+- [CS3423 Operating Systems](https://github.com/QinWenFeng/CS3423_Operating-Systems) 
+- [CS4100 Computer Architecture](https://github.com/QinWenFeng/CS4100_Computer_Architecture) 
+- [CS5412 Virtualization technology and its applications](https://github.com/QinWenFeng/CS5412_Virtualization-technology-and-its-applications)
+- [CS6550 Computer Vision](https://github.com/QinWenFeng/CS6550_Computer-Vision)
+
+## ECON
+- [ECON1001 Principles of Economics (I)](https://github.com/QinWenFeng/ECON1001_Principles-of-Economics-I)
+- [ECON1002 Principles of Economics (II)](https://github.com/QinWenFeng/ECON1002_Principles-of-Economics-II)
+- [ECON2061 Microeconomics (I)](https://github.com/QinWenFeng/ECON2061_Microeconomics-I)
+- [ECON2062 Microeconomics (II)](https://github.com/QinWenFeng/ECON2062_Microeconomics-II)
+- [ECON3091 Macroeconomics (I)](https://github.com/QinWenFeng/ECON3091_Macroeconomics-I) 
+- [ECON3092 Macroeconomics (II)](https://github.com/QinWenFeng/ECON3092_Macroeconomics-II) 
+- [ECON4122 International Economics (II)](https://github.com/QinWenFeng/ECON4122_International-Economics-II)
+
 ## EE
 - [EE2210 Electric Circuits](https://github.com/QinWenFeng/EE2210_Electric-Circuits)
 - [EE2230 Logic Design Laboratory](https://github.com/QinWenFeng/EE2230_Logic-Design-Laboratory)
@@ -10,14 +27,6 @@ title:  "NTHU"
 - [EE2405 Embedded System laboratory](https://github.com/QinWenFeng/ee2405)
 - [EE3640 Communication Systems I](https://github.com/QinWenFeng/EE3640_Communication-Systems-I) 
 - [EE3660 Introduction to Digital Signal Processing](https://github.com/QinWenFeng/EE3660_Introduction-to-Digital-Signal-Processing)
-
-## CS
-- [CS1358 Introduction to Programming in Python](https://github.com/QinWenFeng/CS1358_Introduction-to-Programming-in-Python)
-- [CS3332 Probability](https://github.com/QinWenFeng/CS3332_Probability) 
-- [CS3423 Operating Systems](https://github.com/QinWenFeng/CS3423_Operating-Systems) 
-- [CS4100 Computer Architecture](https://github.com/QinWenFeng/CS4100_Computer_Architecture) 
-- [CS5412 Virtualization technology and its applications](https://github.com/QinWenFeng/CS5412_Virtualization-technology-and-its-applications)
-- [CS6550 Computer Vision](https://github.com/QinWenFeng/CS6550_Computer-Vision)
 
 ## EECS
 - [EECS1010 Logic Design]
@@ -30,15 +39,6 @@ title:  "NTHU"
 ## IIS
 - [IIS5002 Network Security](https://github.com/QinWenFeng/IIS5002_Network-Security)
 - [IIS5004 Applied Cryptography](https://github.com/QinWenFeng/IIS5004_Applied-Cryptography)
-
-## ECON
-- [ECON1001 Principles of Economics (I)](https://github.com/QinWenFeng/ECON1001_Principles-of-Economics-I)
-- [ECON1002 Principles of Economics (II)](https://github.com/QinWenFeng/ECON1002_Principles-of-Economics-II)
-- [ECON2061 Microeconomics (I)](https://github.com/QinWenFeng/ECON2061_Microeconomics-I)
-- [ECON2062 Microeconomics (II)](https://github.com/QinWenFeng/ECON2062_Microeconomics-II)
-- [ECON3091 Macroeconomics (I)](https://github.com/QinWenFeng/ECON3091_Macroeconomics-I) 
-- [ECON3092 Macroeconomics (II)](https://github.com/QinWenFeng/ECON3092_Macroeconomics-II) 
-- [ECON4122 International Economics (II)](https://github.com/QinWenFeng/ECON4122_International-Economics-II)
 
 ## Expected Course
 - [EE2245 Microelectronics Labs.]
