@@ -15,9 +15,12 @@
   <meta property="og:url" content="https://qinwenfeng.github.io/course/IIS5002 Network Security.html" />
 
   <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,53 +33,46 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lsml-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a id="nav~~qwf" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
+        <a id="nav~" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="lsml-navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a id="nav~~chapter" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">Chapter <span class="caret"></span></a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Chapter </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~chapter0" href="#chapter0">Chapter 0 Logistics</a></li>
-              <li><a id="nav~~chapter1" href="#chapter1">Chapter 1 Introduction</a></li>
-              <li><a id="nav~~chapter2" href="#chapter2">Chapter 2 Symmetric Crypto</a></li>
-              <li><a id="nav~~chapter3" href="#chapter3">Chapter 3 Public-key Crypto</a></li>
-              <li><a id="nav~~chapter4" href="#chapter4">Chapter 4 Kerberos and PKI</a></li>
-              <li><a id="nav~~chapter6" href="#chapter6">Chapter 6 Transport-Level Security</a></li>
-              <li><a id="nav~~chapter9" href="#chapter9">Chapter 9 IP Security</a></li>
-              <li><a id="nav~~chapter12" href="#chapter12">Chapter 12 Firewalls</a></li>
+              <li><a class="dropdown-item" href="#chapter0">Chapter 0 Logistics</a></li>
+              <li><a class="dropdown-item" href="#chapter1">Chapter 1 Introduction</a></li>
+              <li><a class="dropdown-item" href="#chapter2">Chapter 2 Symmetric Crypto</a></li>
+              <li><a class="dropdown-item" href="#chapter3">Chapter 3 Public-key Crypto</a></li>
+              <li><a class="dropdown-item" href="#chapter4">Chapter 4 Kerberos and PKI</a></li>
+              <li><a class="dropdown-item" href="#chapter6">Chapter 6 Transport-Level Security</a></li> 
+              <li><a class="dropdown-item" href="#chapter9">Chapter 9 IP Security</a></li>        
+              <li><a class="dropdown-item" href="#chapter12">Chapter 12 Firewalls</a></li>    
             </ul>
           </li>
 
-          <li class="dropdown">
-            <a id="nav~~hw" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">Homework <span class="caret"></span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Homework </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~hw1" href="#hw1">Homework 1</a></li>
-              <li><a id="nav~~hw2" href="#hw2">Homework 2</a></li>
-              <li><a id="nav~~hw3" href="#hw3">Homework 3</a></li>
+              <li><a class="dropdown-item" href="#homework1">Homework 1</a></li>
+              <li><a class="dropdown-item" href="#homework2">Homework 2</a></li>
+              <li><a class="dropdown-item" href="#homework2">Homework 3</a></li>
             </ul>
           </li>
 
-          <li>
-            <a id="nav~~midtermexam" href="#midtermexam">Midterm Exam</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#midtermexam">Midterm Exam</a>
           </li>
 
-          <li>
-            <a id="nav~~finalexam" href="#finalexam">Final Exam</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#finalexam">Final Exam</a>
           </li>
+
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -86,10 +82,10 @@
 
 <!-- header -->
   <section id="description">
-    <div class="container" style="margin-top: 7rem !important">
+    <div class="container" style="margin-top: 5rem !important">
       <div class="row">
         <div class="text-center">
-          <h1 class="section-heading">IIS5002 Network Security</h1>
+          <h1 class="section-heading">ECON4122 International Economics (II)</h1>
     </div></div></div>
   </section>
 
@@ -97,167 +93,172 @@
    <section id="Content">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-          <h1 class="section-heading">Content</h1>
+        <div class="col-md-8 offset-md-2">
+          <h2 class="section-heading">Content</h2>
 
-        <a id="chapter0"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 0 Logistics</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Syllabus | The Classes | Textbooks</blockquote>
-              <p class="text-right">
-              <a id="chapter0~slide" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter0"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 0 Logistics</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              Syllabus | The Classes | Textbooks</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="chapter1"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 1 Introduction</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Computer security concepts | The OSI activity architecture | Security attacks | Security services | Security  
-               mechanisms | Model for network security</blockquote>
-              <p class="text-right">
-              <a id="chapter1~slide" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter1"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 1 Introduction</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              Computer security concepts | The OSI activity architecture | Security attacks | Security services | Security mechanisms |
+              Model for network security</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="chapter2"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 2 Symmetric Crypto</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Symmetric encryption principles | Symmetric block encryption algorithms | Random and pseudorandom numbers | 
-               Stream ciphers and RC4 | Cipher block modes of operation</blockquote>
-              <p class="text-right">
-              <a id="chapter2~slide" href="https://github.com/QinWenFeng/CS6550_Computer-Vision/blob/main/Slide/CS6550_Unit2-ImageFeatures.pdf" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter2"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 2 Symmetric Crypto</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              Symmetric encryption principles | Symmetric block encryption algorithms | Random and pseudorandom numbers | Stream ciphers 
+              and RC4 | Cipher block modes of operation</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="chapter3"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 3 Public-key Crypto</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Approaches to message authentication | Secure hash functions | Digital signatures | Message authentication 
-               codes | Public-key cryptography principles | Public-key cryptography algorithms</blockquote>
-              <p class="text-right">
-              <a id="unit3~slide" href="https://github.com/QinWenFeng/CS6550_Computer-Vision/blob/main/Slide/CS6550_Unit3-CameraCalibration.pdf" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p>
-            <p><blockquote>Mathematics of Crypto</blockquote>
-              <p class="text-right">
-              <a id="chapter3~slide" href="https://github.com/QinWenFeng/CS6550_Computer-Vision/blob/main/Slide/CS6550_Unit3-CameraCalibration.pdf" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter3"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 3 Public-key Crypto</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black "> 
+              Approaches to message authentication | Secure hash functions | Digital signatures | Message authentication codes | 
+              Public-key cryptography principles | Public-key cryptography algorithms</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+              <p class="fs-5 p-3 border-start border-4 border-black ">Mathematics of Crypto</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw1"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>Homework 1</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw1~problem" href="" class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw1~answer" href="" class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw1~solution" href="" class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="homework1"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">Homework 1</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="chapter4"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 4 Kerberos and PKI</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Kerberos</blockquote>
-              <p class="text-right">
-              <a id="chapter4~slide" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p>
-            <p><blockquote>PKI</blockquote>
-              <p class="text-right">
-              <a id="chapter4~slide" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter4"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 4 Kerberos and PKI</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black "> 
+              Kerberos</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+              <p class="fs-5 p-3 border-start border-4 border-black ">PKI</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="midtermexam"></a>
-        <div class="panel panel-danger">
-          <div class="panel-heading"><h4>Midterm Exam</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="midtermexam~problem" href="https://github.com/QinWenFeng/IIS5002_Network-Security/blob/main/Midterm%20Exam/Midterm2021.pdf" class="btn btn-danger"><span class="glyphicon glyphicon-question-sign"></span> 
-              Problem</a>
-              <a id="midtermexam~answer" href=" " class="btn btn-danger"><span class="glyphicon glyphicon-book"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="midtermexam"></a>
+          <div class="card border-danger mb-3">
+            <h5 class="card-header bg-danger border-danger text-light">Midterm Exam</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-danger"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-danger"><i class="bi bi-filetype-pdf"></i> Answer</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="chapter6"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 6 Transport-Level Security</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Web security considerations | Secure sockets layer | HTTPS | Transport layer security | Secure shell (SSH)
-               </blockquote>
-              <p class="text-right">
-              <a id="chapter6~slide" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter6"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 6 Transport-Level Security</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black "> 
+              Web security considerations | Secure sockets layer | HTTPS | Transport layer security | Secure shell (SSH)</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw2"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>Homework 2</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw2~problem" href="" class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw2~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw2~solution" href="" class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="homework2"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">Homework 2</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="chapter9"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 9 IP Security</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>IP security overview | IP security policy | Cryptographic suites | Encapsulating security payload | Combining 
-               security associations | Internet key exchange</blockquote>
-              <p class="text-right">
-              <a id="chapter9~slide" href="https://github.com/QinWenFeng/CS6550_Computer-Vision/blob/main/Slide/CS6550_Unit6-ModelFitting.pdf" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter9"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 9 IP Security</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black "> 
+              IP security overview | IP security policy | Cryptographic suites | Encapsulating security payload | Combining 
+               security associations | Internet key exchange</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="chapter12"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Chapter 12 Firewalls</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>The need for firewalls | Firewall characteristics | Types of firewalls | Firewall basing | Firewall locations 
-               and configurations</blockquote>
-              <p class="text-right">
-              <a id="chapter12~firewalls" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p>
-            <p><blockquote>Botnet</blockquote>
-              <p class="text-right">
-              <a id="chapter12~botnet" href="" class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Slide</a>
-            </p></p></div>
-        </div>
+          <a id="chapter12"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Chapter 12 Firewalls</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black "> 
+              The need for firewalls | Firewall characteristics | Types of firewalls | Firewall basing | Firewall locations and 
+              configurations</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+              <p class="fs-5 p-3 border-start border-4 border-black ">Botnet</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw3"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>Homework 3</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw3~problem" href="" class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw3~answer" href="" class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="homework3"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">Homework 3</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="finalexam"></a>
-        <div class="panel panel-danger">
-          <div class="panel-heading"><h4>Final Exam</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="finalmexam~problem" href="https://github.com/QinWenFeng/IIS5002_Network-Security/blob/main/Final%20Exam/Final2021.pdf" class="btn btn-danger"><span class="glyphicon glyphicon-question-sign"></span> 
-              Problem</a>
-              <a id="finalexam~answer" href=" " class="btn btn-danger"><span class="glyphicon glyphicon-book"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="finalexam"></a>
+          <div class="card border-danger mb-3">
+            <h5 class="card-header bg-danger border-danger text-light">Final Exam</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-danger"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-danger"><i class="bi bi-filetype-pdf"></i> Answer</button>
+              </div>
+            </div>
+          </div>
 
-        <!-- /.row -->
+         <!-- /.row -->
       </div>
       <!-- /.container -->
   </section>
@@ -267,18 +268,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-center"> Lastest Update: 4/2/2023</p>
+          <p class="text-center"> Lastest Update: 4/20/2023</p>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
   <script src="./js/main.js"></script>
 

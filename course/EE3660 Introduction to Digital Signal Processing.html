@@ -15,9 +15,12 @@
   <meta property="og:url" content="https://qinwenfeng.github.io/course/EE3660 Introduction to Digital Signal Processing.html" />
 
   <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,68 +33,54 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lsml-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a id="nav~~" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
+        <a id="nav~" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="lsml-navbar-collapse">
-        <ul class="nav navbar-nav">
-
-          <li class="dropdown">
-            <a id="nav~~topic" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">Topic <span class="caret"></span></a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Topic </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~intro" href="#intro">Introduction</a></li>
-              <li><a id="nav~~topic1" href="#topic1">Topic 1 Discrete-time Signals and Systems</a></li>
-              <li><a id="nav~~topic2" href="#topic2">Topic 2 Fourier Representation</a></li>
-              <li><a id="nav~~topic3" href="#topic3">Topic 3 Sampling</a></li>
-              <li><a id="nav~~topic4" href="#topic4">Topic 4 </a></li>
-              <li><a id="nav~~topic5" href="#topic5">Topic 5 </a></li>
+              <li><a class="dropdown-item" href="#intro">Introduction</a></li>
+              <li><a class="dropdown-item" href="#topic1">Topic 1 Discrete-time Signals and Systems</a></li>
+              <li><a class="dropdown-item" href="#topic2">Topic 2 Fourier Representation</a></li>
+              <li><a class="dropdown-item" href="#topic3">Topic 3 Sampling</a></li>
+              <li><a class="dropdown-item" href="#topic4">Topic 4 </a></li>
+              <li><a class="dropdown-item" href="#topic5">Topic 5 </a></li>      
             </ul>
           </li>
 
-          <li class="dropdown">
-            <a id="nav~~hw" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">HW <span class="caret"></span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HW </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~hw1" href="#hw1">HW1</a></li>
-              <li><a id="nav~~hw2" href="#hw2">HW2</a></li>
-              <li><a id="nav~~hw3" href="#hw3">HW3</a></li>
-              <li><a id="nav~~hw4" href="#hw4">HW4</a></li>
-              <li><a id="nav~~hw5" href="#hw5">HW5</a></li>
+              <li><a class="dropdown-item" href="#hw1">HW1</a></li>
+              <li><a class="dropdown-item" href="#hw2">HW2</a></li>
+              <li><a class="dropdown-item" href="#hw3">HW3</a></li>
+              <li><a class="dropdown-item" href="#hw4">HW4</a></li>
+              <li><a class="dropdown-item" href="#hw5">HW5</a></li>
             </ul>
           </li>
 
-          <li class="dropdown">
-            <a id="nav~~lab" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">Lab <span class="caret"></span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lab </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~lab1" href="#lab1">Lab1</a></li>
-              <li><a id="nav~~lab2" href="#lab2">Lab2</a></li>
+              <li><a class="dropdown-item" href="#lab1">Lab1</a></li>
+              <li><a class="dropdown-item" href="#lab2">Lab2</a></li>
             </ul>
           </li>
 
-          <li class="dropdown">
-            <a id="nav~~quiz" class="dropdown-toggle" data-toggle="dropdown" role="button"
-              aria-haspopup="true" aria-expanded="false">Quiz <span class="caret"></span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Quiz </a>
             <ul class="dropdown-menu">
-              <li><a id="nav~~quiz1" href="#quiz1">Quiz 1</a></li>
-              <li><a id="nav~~quiz2" href="#quiz2">Quiz 2</a></li>
+              <li><a class="dropdown-item" href="#quiz1">Quiz 1</a></li>
+              <li><a class="dropdown-item" href="#quiz2">Quiz 2</a></li>
             </ul>
           </li>
 
-          <li>
-            <a id="nav~~finalexam" href="#resources">Final Exam</a>
-          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -101,7 +90,7 @@
 
 <!-- header -->
   <section id="description">
-    <div class="container" style="margin-top: 7rem !important">
+    <div class="container" style="margin-top: 5rem !important">
       <div class="row">
         <div class="text-center">
           <h1 class="section-heading">EE3660 Introduction to Digital Signal Processing</h1>
@@ -112,195 +101,204 @@
    <section id="Content">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-          <h1 class="section-heading">Content</h1>
+        <div class="col-md-8 offset-md-2">
+          <h2 class="section-heading">Content</h2>
 
-        <a id="intro"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Introduction</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>What is "Analog signal"? and What is "Digital/Discrete signal"? | What Parameter Connects Real
-                World and Digital World? | How DSP Affects Circuit Design or Circuit/System Structure? | Course 
-                Outline</blockquote>
-              <p class="text-right">
-              <a id="topic1~slide" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Feb15</a>
-            </p></p></div>
-        </div>
+          <a id="intro"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Introduction</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              What is "Analog signal"? and What is "Digital/Discrete signal"? | What Parameter Connects Real World and Digital World? | 
+              How DSP Affects Circuit Design or Circuit/System Structure? | Course Outline</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Feb15</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="topic1"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Topic 1 Discrete-time Signals and Systems</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Discrete-time Signals | Discrete-time Systems | Convolution and LTI Systems | Properties of LTI
-                Systems</blockquote>
-              <p class="text-right">
-              <a id="topic1~~feb16" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Feb16</a>
-              <a id="topic1~~mar1" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar1</a>
-              <a id="topic1~~mar2" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar2</a>
-              <a id="topic1~~mar8" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar8</a>
-              <a id="topic1~~review" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Review</a>
-            </p></p></div>
-        </div>
+          <a id="topic1"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Topic 1 Discrete-time Signals and Systems</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              Discrete-time Signals | Discrete-time Systems | Convolution and LTI Systems | Properties of LTI Systems</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Feb16</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar1</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar2</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar8</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Review</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw1"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>HW1</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw1~~problem" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw1~~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw1~~solution" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="hw1"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW1</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="topic2"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Topic 2 Fourier Representation</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="topic2~~mar15" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar15</a>
-              <a id="topic2~~mar16" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar16</a>
-              <a id="topic2~~mar22" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Mar22</a>
-              <a id="topic2~~review" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Review</a>
-            </p></p></div>
-        </div>
+          <a id="topic2"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Topic 2 Fourier Representation</h5>
+            <div class="card-body text-dark">
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar15</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar16</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Mar22</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Review</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw2"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>HW2</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw2~~problem" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw2~~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw2~~solution" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="hw2"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW2</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="lab1"></a>
-        <div class="panel panel-success">
-          <div class="panel-heading"><h4>Lab1</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Bandpass signal and its fundamental frequency | Stretch implementation | Amplitude and phase</blockquote>
-              <p class="text-right">
-              <a id="lab1~slide" href=" " class="btn btn-success"><span class="glyphicon glyphicon-book"></span> Silde</a>
-              <a id="lab1~answer" href=" " class="btn btn-success"><span class="glyphicon glyphicon-pencil"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="lab1"></a>
+          <div class="card border-success mb-3">
+            <h5 class="card-header bg-success border-success text-light">Lab1</h5>
+            <div class="card-body text-success"><p class="fs-5 p-3 border-start border-4 border-success">
+              Bandpass signal and its fundamental frequency | Stretch implementation | Amplitude and phase</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="quiz1"></a>
-        <div class="panel panel-warning">
-          <div class="panel-heading"><h4>Quiz 1</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="quiz1~~problem" href=" " class="btn btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="quiz1~~answer" href=" " class="btn btn-warning"><span class="glyphicon glyphicon-book"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="quiz1"></a>
+          <div class="card border-secondary mb-3">
+            <h5 class="card-header bg-secondary border-secondary text-light">Quiz 1</h5>
+            <div class="card-body text-secondary">
+              <div class="text-end">
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="topic3"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Topic 3 Sampling</h4></div>
-          <div class="panel-body"> 
-            <p><blockquote>Ideal Periodic Sampling of CT Signals and Reconstruction | Effect of Undersampling: Aliasing | Sampling and 
-              Reconstruction | Sampling Rate Conversion | DT Processing of CT signals | Practical Sampling and Reconstruction</blockquote>
-              <p class="text-right">
-              <a id="topic3~~mar15" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Apr12</a>
-              <a id="topic3~~mar16" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Apr13</a>
-              <a id="topic3~~mar22" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Apr19</a>
-              <a id="topic3~~review" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Review</a>
-            </p></p></div>
-        </div>
+          <a id="topic3"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Topic 3 Sampling</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              Ideal Periodic Sampling of CT Signals and Reconstruction | Effect of Undersampling: Aliasing | Sampling and Reconstruction |
+              Sampling Rate Conversion | DT Processing of CT signals | Practical Sampling and Reconstruction</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Apr12</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Apr13</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Apr19</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Review</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw3"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>HW3</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw2~~problem" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw2~~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw2~~solution" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="hw3"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW3</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="topic4"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Topic 4</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="topic4~~apr26" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Apr26</a>
-              <a id="topic4~~apr27" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Apr27</a>
-              <a id="topic4~~may3" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May3</a>
-              <a id="topic4~~may4" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May4</a>
-              <a id="topic4~~review" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Review</a>
-            </p></p></div>
-        </div>
+          <a id="topic4"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Topic 4</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              </p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Apr26</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Apr27</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May3</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May4</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Review</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw4"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>HW4</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw2~~problem" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw2~~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw2~~solution" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
+          <a id="hw4"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW4</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="lab2"></a>
-        <div class="panel panel-success">
-          <div class="panel-heading"><h4>Lab2</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="topic2~slide" href=" " class="btn btn-success"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-            </p></p></div>
-        </div>
+          <a id="lab2"></a>
+          <div class="card border-success mb-3">
+            <h5 class="card-header bg-success border-success text-light">Lab2</h5>
+            <div class="card-body text-success"><p class="fs-5 p-3 border-start border-4 border-success">
+              </p>
+              <div class="text-end">
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-success"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="quiz2"></a>
-        <div class="panel panel-warning">
-          <div class="panel-heading"><h4>Quiz 2</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="quiz2~~problem" href=" " class="btn btn-warning"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="quiz2~~answer" href=" " class="btn btn-warning"><span class="glyphicon glyphicon-book"></span> Answer</a>
-            </p></p></div>
-        </div>
+          <a id="quiz2"></a>
+          <div class="card border-secondary mb-3">
+            <h5 class="card-header bg-secondary border-secondary text-light">Quiz 2</h5>
+            <div class="card-body text-secondary">
+              <div class="text-end">
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-secondary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
 
-        <a id="topic5"></a>
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4>Topic 5</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="topic5~~may17" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May17</a>
-              <a id="topic5~~may24" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May24</a>
-              <a id="topic5~~may25" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May25</a>
-              <a id="topic5~~may31" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> May31</a>
-              <a id="topic5~~review" href=" " class="btn btn-default"><span class="glyphicon glyphicon-book"></span> Review</a>
-            </p></p></div>
-        </div>
+          <a id="topic5"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Topic 5</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black ">
+              </p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May17</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May24</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May25</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> May31</button>
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Review</button>
+              </div>
+            </div>
+          </div> 
 
-        <a id="hw5"></a>
-        <div class="panel panel-info">
-          <div class="panel-heading"><h4>HW5</h4></div>
-          <div class="panel-body"> 
-            <p>
-              <p class="text-right">
-              <a id="hw2~~problem" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span> Problem</a>
-              <a id="hw2~~answer" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-book"></span> Answer</a>
-              <a id="hw2~~solution" href=" " class="btn btn-primary"><span class="glyphicon glyphicon-education"></span> Solution</a>
-            </p></p></div>
-        </div>
-
-        <!-- /.row -->
+          <a id="hw5"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW5</h5>
+            <div class="card-body text-primary"> 
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Answer</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Solution</button>
+              </div>
+            </div>
+          </div>
+         <!-- /.row -->
       </div>
       <!-- /.container -->
   </section>
@@ -310,18 +308,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-center"> Lastest Update: 4/14/2023</p>
+          <p class="text-center"> Lastest Update: 4/19/2023</p>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
   <script src="./js/main.js"></script>
 
