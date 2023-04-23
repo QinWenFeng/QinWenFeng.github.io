@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,11 +12,15 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Yanwarud Chinsiriwong">
   <meta property="og:title" content="Yanwarud Chinsiriwong" />
+  <meta property="og:url" content="https://qinwenfeng.github.io/Yanwarud Chinsiriwong.html" />
 
   <!-- Bootstrap Core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,358 +31,329 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lsml-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a id="nav~~" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="lsml-navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a id="nav~~content" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-            aria-haspopup="true" aria-expanded="false">Course <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a id="nav~~cs" href="#cs" alt="">CS</a></li>
-            <li><a id="nav~~econ" href="#econ" alt="">ECON</a></li>
-            <li><a id="nav~~ee" href="#ee" alt="">EE</a></li>
-            <li><a id="nav~~eecs" href="#eecs" alt="">EECS</a></li>
-          </ul>
-        </li>
 
-        <li>
-          <a id="nav~~projects" href="#projects">Projects</a>
-        </li>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a id="nav~" class="navbar-brand" href="https://QinWenFeng.github.io">Yanwarud Chinsiriwong</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="lsml-navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Course </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#cs">CS</a></li>
+              <li><a class="dropdown-item" href="#econ">ECON</a></li>
+              <li><a class="dropdown-item" href="#ee">EE</a></li>
+              <li><a class="dropdown-item" href="#eecs">EECS</a></li>
+              <li><a class="dropdown-item" href="#iis">IIS</a></li>
+            </ul>
+          </li>
 
-      </ul>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
-</nav>
+    <!-- /.container -->
+  </nav>
 
 <!-- header -->
-<section id="description">
-  <div class="container" style="margin-top: 7rem !important">
-    <div class="row">
-      <div class="text-center">
-        <h1 class="section-heading">Yanwarud Chinsiriwong</h1>
+  <section id="description">
+    <div class="container" style="margin-top: 5rem !important">
+      <div class="row">
+        <div class="text-center">
+          <h1 class="section-heading">Yanwarud Chinsiriwong</h1>
+    </div></div></div>
+  </section>
+
+  <!-- Content Sections -->
+   <section id="Content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="section-heading">Course</h2>
+
+          <p id="cs"></p> 
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark fs-5">CS</li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS1358 Introduction to Programming in Python</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS3332 Probability</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/CS3332 Probability.html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS3423 Operating Systems</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS4100 Computer Architecture</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS5412 Virtualization technology and its applications</div>
+                <div class="col-4 d-flex justify-content-end"><button href="" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">CS6550 Computer Vision</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/CS6550 Computer Vision.html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p id="econ"></p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark fs-5">ECON</li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON1001 Principles of Economics (I)</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON1002 Principles of Economics (II)</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON2061 Microeconomics (I)</div>
+                <div class="col-4 d-flex justify-content-end"><button href="" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON2062 Microeconomics (II)</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/ECON2062 Microeconomics (II).html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON3091 Macroeconomics (I)</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON3092 Macroeconomics (II)</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">ECON4122 International Economics (II)</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/ECON4122 International Economics (II).html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p id="ee"></p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark fs-5">EE</li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE2210 Electric Circuits</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/EE2210 Electric Circuits.html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE2230 Logic Design Laboratory</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2023-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE2255 Electronics</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/EE2255 Electronics.html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE2310 Introduction to Programming</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2020-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE2405 Embedded System laboratory</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE3640 Communication Systems I</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EE3660 Introduction to Digital Signal Processing</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/EE3660 Introduction to Digital Signal Processing.html" 
+                  class="btn btn-dark"><i class="bi bi-globe-americas"></i> 2023-Spring</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p id="eecs"></p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark fs-5">EECS</li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS1010 Logic Design</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2020-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS2020 Signals and Systems</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS2030 Ordinary Differential Equations</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2021-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS2040 Data Structures</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS2050 Linear Algebra</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2021-Fall</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">EECS2060 Discrete Mathematics</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2020-Fall</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p id="iis"></p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-dark fs-5">IIS</li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">IIS5002 Network Security</div>
+                <div class="col-4 d-flex justify-content-end">
+                  <a href="https://qinwenfeng.github.io/course/IIS5002 Network Security.html" class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2021-Fall</a>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-8 fs-5">IIS5004 Applied Cryptography</div>
+                <div class="col-4 d-flex justify-content-end"><button href=" " class="btn btn-dark">
+                  <i class="bi bi-globe-americas"></i> 2022-Spring</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+         <!-- /.row -->
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- Content Sections -->
-<section id="cs">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-        <h1 class="section-heading">Course</h1>
-
-        <!-- cs -->
-        <p id="cs"></p>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4>CS</h4></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS1358 Introduction to Programming in Python</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS3332 Probability</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS3423 Operating Systems</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS4100 Computer Architecture</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="cs4100" href="https://qinwenfeng.github.io/course/CS4100 Computer Architecture.html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS5412 Virtualization technology and its applications</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="cs5412" href="https://qinwenfeng.github.io/course/CS5412 Virtualization technology and its applications.html" 
-                      class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>CS6550 Computer Vision</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="cs6550" href="https://qinwenfeng.github.io/course/CS6550 Computer Vision.html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-          </ul>
-        </div>
-
-        <!-- econ -->
-        <p id="econ"></p>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4>ECON</h4></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON1001 Principles of Economics (I)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON1002 Principles of Economics (II)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p> 
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON2061 Microeconomics (I)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="econ2061" href="https://qinwenfeng.github.io/course/ECON2062 Microeconomics (II).html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON2062 Microeconomics (II)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="econ2062" href="https://qinwenfeng.github.io/course/ECON2062 Microeconomics (II).html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON3091 Macroeconomics (I)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON3092 Macroeconomics (II)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="econ3092" href="" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>ECON4122 International Economics (II)</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="econ4122" href="https://qinwenfeng.github.io/course/ECON4122 International Economics (II).html" 
-                      class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-          </ul>
-        </div>
-
-        <!-- ee -->
-        <p id="ee"></p>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4>EE</h4></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE2210 Electric Circuits</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="ee2210" href="https://qinwenfeng.github.io/course/EE2210 Electric Circuits.html" class="btn btn-default"><span 
-                      class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE2230 Logic Design Laboratory</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href="" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE2255 Electronics</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE2310 Introduction to Programming</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2020-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE2405 Embedded System laboratory</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE3640 Communication Systems I</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="ee3640" href="https://qinwenfeng.github.io/course/EE3640 Communication Systems I.html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2022-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EE3660 Introduction to Digital Signal Processing</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="ee3660" href="https://qinwenfeng.github.io/course/EE3660 Introduction to Digital Signal Processing.html" 
-                      class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2023-Spring</a>
-                  </p>
-                </div></div></li>
-          </ul>
-        </div>
-
-        <!-- eecs -->
-        <p id="eecs"></p>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4>EECS</h4></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS1010 Logic Design</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2020-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS2020 Signals and Systems</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS2030 Ordinary Differential Equations</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2021-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS2040 Data Structures</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS2050 Linear Algebra</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2021-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>EECS2060 Discrete Mathematics</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2020-Fall</a>
-                  </p>
-                </div></div></li>
-          </ul>
-        </div>
-       <!-- iis -->
-        <p id="iis"></p>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-              <h4>IIS</h4></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>IIS5002 Network Security</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="iis5002" href="https://qinwenfeng.github.io/course/IIS5002 Network Security.html" class="btn btn-default">
-                      <span class="glyphicon glyphicon-globe"></span> 2021-Fall</a>
-                  </p>
-                </div></div></li>
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-8"><h4>IIS5004 Applied Cryptography</h4></div>
-                <div class="col-xs-4">
-                  <p class="text-right">
-                    <a id="" href=" " class="btn btn-default"><span class="glyphicon glyphicon-globe"></span> 2022-Spring</a>
-                  </p>
-                </div></div></li>
-          </ul>
-        </div>
-    </div>
+      <!-- /.container -->
+  </section>
 
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-center"> Lastest Update: 4/2/2023</p>
+          <p class="text-center"> Lastest Update: 4/23/2023</p>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
   <script src="./js/main.js"></script>
 
