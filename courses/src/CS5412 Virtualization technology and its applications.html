@@ -12,7 +12,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="CS5412 Virtualization technology and its applications">
   <meta property="og:title" content="CS5412 Virtualization technology and its applications" />
-  <meta property="og:url" content="https://qinwenfeng.github.io/course/CS5412 Virtualization technology and its applications.html" />
+  <meta property="og:url" content="https://qinwenfeng.github.io/courses/CS5412 Virtualization technology and its applications.html" />
 
   <!-- Bootstrap Core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -45,19 +45,22 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Chapter </a>
             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#intro">Introduction to Virtualization</a></li>
               <li><a class="dropdown-item" href="#chapter1">Server Virtualization</a></li>
               <li><a class="dropdown-item" href="#chapter2">Applications of VMs</a></li>
               <li><a class="dropdown-item" href="#chapter3">Container</a></li>
               <li><a class="dropdown-item" href="#chapter4">Container Orchestration</a></li>
               <li><a class="dropdown-item" href="#chapter5">PaaS and DevOps</a></li>
+              <li><a class="dropdown-item" href="#chapter6">IoT, Edge, 5G</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HW </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#hw1">HW1</a></li>
-              <li><a class="dropdown-item" href="#hw2">HW2</a></li>
+              <li><a class="dropdown-item" href="#hw1">HW1 Setup VM and perform two types of migration</a></li>
+              <li><a class="dropdown-item" href="#hw2">HW2 Docker container</a></li>
+              <li><a class="dropdown-item" href="#hw3">HW3 Kubernetes</a></li>
             </ul>
           </li>
 
@@ -65,6 +68,8 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Talk </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#talk1">Kubernetes - Past, Present and Future</a></li>
+              <li><a class="dropdown-item" href="#talk2">Basic Processor and Platform Security</a></li>
+              <li><a class="dropdown-item" href="#talk4">An Overview of Open-Source Technology</a></li>
             </ul>
           </li>
 
@@ -90,6 +95,17 @@
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <h2 class="section-heading">Content</h2>
+
+          <a id="intro"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Introduction to Virtualization</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black"> 
+              About this class | What is virtualization | Virtualization Technologies | Case Study: a simple emulator</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
 
           <a id="chapter1"></a>
           <div class="card border-dark mb-3">
@@ -199,6 +215,64 @@
             </div>
           </div> 
 
+          <a id="chapter6"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">IoT, Edge, 5G</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black"> 
+              IoT | Edge computing | 5G | C-RAN | Mobile Edge Computing</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
+
+          <a id="hw3"></a>
+          <div class="card border-primary mb-3">
+            <h5 class="card-header bg-primary border-primary text-light">HW3 Kubernetes</h5>
+            <div class="card-body text-primary"><p class="fs-5 p-3 border-start border-4 border-primary">
+              Deploy a simple socket server with k8s | Deploy nfs server with k8s | Report | Deadline</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Problem</button>
+                <button href=" " class="btn btn-primary"><i class="bi bi-filetype-pdf"></i> Report</button>
+              </div>
+            </div>
+          </div>
+
+          <a id="chapter7"></a>
+          <div class="card border-dark mb-3">
+            <h5 class="card-header bg-dark border-dark text-light">Container enhancement</h5>
+            <div class="card-body text-dark"><p class="fs-5 p-3 border-start border-4 border-black"> 
+              Kernel Assisted Container Virtualization | User Space Approaches | Combination of VM and Container</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-dark"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
+
+          <a id="talk2"></a>
+          <div class="card border-info mb-3">
+            <h5 class="card-header bg-info border-info text-light">Basic Processor and Platform Security</h5>
+            <div class="card-body text-info"><p class="fs-5 p-3 border-start border-4 border-info"> 
+              Processor Security | Platform Security</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-info text-light"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
+
+          <a id="talk4"></a>
+          <div class="card border-info mb-3">
+            <h5 class="card-header bg-info border-info text-light">An Overview of Open-Source Technology</h5>
+            <div class="card-body text-info"><p class="fs-5 p-3 border-start border-4 border-info"> 
+              Open-Source Software | Open-Source ISA | Open-Source Gateware/Hardware | Open-Source Large Language Model | An Overview of
+              Andes Technology | Closing Remark</p>
+              <div class="text-end">
+                <button href=" " class="btn btn-info text-light"><i class="bi bi-filetype-pdf"></i> Slide</button>
+              </div>
+            </div>
+          </div> 
+
+
          <!-- /.row -->
       </div>
       <!-- /.container -->
@@ -209,7 +283,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-center"> Lastest Update: 5/4/2023</p>
+          <p class="text-center"> Lastest Update: 6/2/2023</p>
         </div>
       </div>
     </div>
